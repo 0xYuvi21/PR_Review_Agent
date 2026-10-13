@@ -1,0 +1,19 @@
+[project]
+name = "pr-review-agent"
+version = "0.1.0"
+description = "PR Review Agent"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "redis",
+    "arq",
+    "langgraph",
+    "pydantic",
+    "python-dotenv",
+    "pydantic-settings",
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

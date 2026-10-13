@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+redis
+arq
+langgraph
+pydantic
+python-dotenv
+pydantic-settings
